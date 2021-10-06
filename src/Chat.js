@@ -49,7 +49,7 @@ const Chat = () => {
       text: currentMessage,
       isBot: false,
     }
-    if(event.target.value!=''){
+    if(event.target.value!==''){
       setResponses((responses) => [...responses, message])
       handleMessageSubmit(message.text)
       setCurrentMessage('')
