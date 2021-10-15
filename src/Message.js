@@ -35,7 +35,7 @@ const Message = ({ message }) => {
               {message.text}
             </span>
           </div>
-          <i className="fas fa-desktop w-6 h-6 dark:text-white  rounded-full order-1" />
+          <i className="fas fa-user-astronaut fa-lg w-6 h-6 dark:text-white  rounded-full order-1" />
         </div>
       ) : (
         <div className="flex items-end pt-2 justify-end">
@@ -68,7 +68,7 @@ const Message = ({ message }) => {
               {message.text}
             </span>
           </div>
-          <i className="fas fa-user w-6 h-6 dark:text-white  rounded-full order-1" />
+          <i className="fas fa-user fa-lg w-6 h-6 dark:text-white  rounded-full order-1" />
         </div>
       )}
     </>
